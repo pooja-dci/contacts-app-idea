@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free bootstrap documentation template">
+    <title>Free Bootstrap Documentation template</title>
+    <!-- using online links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- using local links -->
+    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar-themes.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> </head>
+
+<body>
+    <div class="page-wrapper toggled light-theme">
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <!-- sidebar-brand  -->
+                <div class="sidebar-item sidebar-brand text-white font-weight-bold">Contact App</div>
+                <!-- sidebar-header  -->
+                <!-- sidebar-menu  -->
+                <div class=" sidebar-item sidebar-menu">
+                    <ul>
+                        <li class="header-menu"> <span>Hackathon 1</span> </li>
+                        <li>
+                            <a href="#"> <i class="fa fa-folder"></i><span class="menu-text">Project</span> </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-footer  -->
+        </nav>
+        <!-- page-content  -->
+        <main class="page-content">
+            <div id="overlay" class="overlay"></div>
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center p-3 border-bottom">
+                    <div class="col-md-1">
+                        <a id="toggle-sidebar" class="btn rounded-0 p-3" href="#"> <i class="fas fa-bars"></i> </a>
+                    </div>
+                    <div class="col-md-8">
+                        <nav aria-label="breadcrumb" class="align-items-center">
+                            <a href="index.html" class="breadcrumb-back" title="Back"></a>
+                            <ol class="breadcrumb d-none d-lg-inline-flex m-0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <!--<li class="breadcrumb-item active" aria-current="page">Layout 2</li>-->
+                            </ol>
+                        </nav>
+                    </div>
+                    
+                </div>
+                <div class="row p-lg-4">
+                    <article class="main-content col-md-12 pr-lg-5">
+                        <!-- title -Add bootstrap helpers for spacing -->
+                        <h1 class="mb-2 mt-3">Introduction</h1>
+                        <!--//title -->
+                        <p class="lead mb-3"> Let's get started! </p>
+                        <p>Contacts is a handy app to have. It stores all of your saved contacts. In this project, you will create one with your team. It helps you to understand and implement the basic programming concepts and principles of OOP.
+                        </p>
+                        <!-- Sep -->
+                        <hr class="my-5">
+                        <!-- alert -->
+                        <div class="alert alert-primary d-flex justify-content-start align-items-center" role="alert"> <span class="fa fa-info mr-4"></span>
+                            <p class="m-0"> Throughout the process, any questions/clarifications/recommendations to the Project Manager (your instructors) should be addressed by BAs. No one else from the team should be communicating with the PM unless absolutely needed.
+                            </p>
+                        </div>
+                        <!-- heading -->
+                        <h3 class="font-weight-bold mb-2">
+                            Process
+                        </h3>
+                        <p> To get started, you need to do the following: </p>
+                        <ol>
+                            <li><strong>DevOps</strong> will create a project on eclipse and push it to GitHub. Add your team members as collaborators on that repository. 
+                            </li>
+                            <li>Team members will clone that repository on their eclipse (Check useful links tab for info on how to clone github repo onto eclipse)</li>
+                            <li>
+                                All team members will read and understand the requirements document fully
+
+                            </li>
+                            <li>
+                                <strong>Architect</strong> will discuss with the team members and come up with the design such as classes, attributes, methods, access modifiers for attributes, constructors , toString. Architect can write the design on a piece of paper or a shared document. 
+
+                            </li>
+                            <li>
+                                Architect will discuss with team members and come up with the logic for each menu option
+
+                            </li>
+                            <li>
+                                <strong>Business Analyst</strong> will invite PM to join their breakout room and discuss the design solution.
+                            </li>
+                            <li>
+                                Once PM gives the go ahead, <strong>Team lead</strong> will assign work to each member
+
+                            </li>
+                            <li>
+                                Team members would need a baseline code to begin implementing features. Team lead / Architect can share their screen and implement the baseline code like creating the model/POJO classes, and a class that contains a phonebook list and the main method.
+                                <br/>Create these classes and push the code on “master/main” branch
+                            </li>
+                            <li>
+                                QA will pull this code, run the project. Initially the main method will be empty so the project won’t do anything. Once QA gives a go-ahead that the code so far is error-free and runs, move to the next step.
+
+                            </li>
+                            <li>
+                                Once step 7 is completed, each member of the team will create their own feature branch (give it a feature name like “search-functionality”) from the master/main branch. Create one branch per feature. Do not merge multiple features in the same branch. Don’t write your name in commits, feature names etc. I will be able to see who implemented which part of the code by viewing push and pull requests on the repository
+                            </li>
+                            <li>
+                                Each team member will implement their assigned work. This project is open book so feel free to use any resource online or otherwise. DO NOT copy paste code from anywhere. 
+
+                            </li>
+                            <li>
+                                Once done implementing your assigned work, push your code to your branch, Open a pull request to merge your branch with master. Do not merge the pull request. Assign someone to review your code.
+
+                            </li>
+                            <li>
+                                Once your code is reviewed and you get a go ahead, merge your branch with master branch.
+                            </li>
+                            <li>
+                                Once all team members are done implementing their feature/s and merging with master, QA will pull the code , change branch to master and test by running your code several times. Any issues will be logged under issues tab on GitHub and QA/BA will assign the issue to a team member of their choice. 
+
+                            </li>
+                            <li>
+                                Assigned team members will create a new branch from main, call it bug-fix-(issue-number), pull it on eclipse, switch to that branch and fix the issue. Once done, you can push the code and create a new pull request.
+
+                            </li>
+                            <li>
+                                Process continues until QA gives a go ahead to make your application live - i.e in our case, let the Project Manager know that the project is completed.
+                            </li>
+                        </ol>
+                        <!-- Sep -->
+                        <hr class="my-5">
+                        <h3 class="font-weight-bold mb-2">
+                            Requirements
+                        </h3>
+                        <p>
+                            
+In this project, you will write an application that creates and stores contacts. It can store information about people and organizations.
+In the app, you can store phone numbers of different people and different companies, like your favorite pizza shop or your bank. 
+<br/></p>
+
+<p>There should be a base class Contact that contains information relevant to both an organization and a person, like <code>name, phone number (which would be a String) and createdAt (which would be the datetime when the object was created example: <code>2022-03-22T22:39:53.737179</code></code>) . 
+Contact will have a stand-alone verifier that validates if a phone number entered by the user is valid or not. This method will potentially be used by different applications by passing the string phone number as a parameter. This method is stand-alone logic and hence can be called without having to create an object of Contact. A phone number is valid if it contains 12 characters.</p>
+<p>Additionally, Person will have <code>email and date of birth (date object) </code>and Organization will have a <code>website.</code></p>
+<p>
+    You can perform several actions in your phonebook application: 
+<code>[add, list, count, info, delete, search, exit]</code>
+
+</p>
+<hr class="my-5">
+<h3 class="font-weight-bold mb-2">
+    Menu options
+</h3>
+<ol>
+    <li>
+        add:
+        <ul>
+            <li>
+                Asks the user whether they want to add a person or organization.
+                 
+
+            </li>
+            <li>
+                Based on their choice, display the questions pertaining to that Contact type.
+            </li>
+            <li>
+                Before building the object and storing it in the phonebook list, check if the phone number entered by the user is valid not not. Contact has a verifier that can check it for you. If the phone number is valid, retain the data entered by the user, if not, assign phone number to “[No Number]” text.
+            </li>
+            <li>
+                Create the contact object and store it in your phonebook list.
+            </li>
+        </ul>
+    </li>
+    <li>
+        list:
+        <ul>
+            <li>Display each contact in “contact id. Contact name” format</li>
+        </ul>
+    </li>
+    <li>
+        count:
+        <ul>
+            <li>Display the number of records currently in the phonebook</li>
+        </ul>
+    </li>
+    <li>
+        info:
+        <ul>
+            <li>
+                Display the list of records
+            </li>
+            <li>
+                Ask the user to input contact id
+            </li>
+            <li>
+                If the contact id is present in the phonebook, display the contact information
+            </li>
+        </ul>
+    </li>
+    <li>
+        delete:
+        <ul>
+            <li>
+                Display the list of records
+            </li>
+            <li>
+                Ask the user to input contact id
+            </li>
+            <li>
+                Delete the contact id from the phonebook
+            </li>
+        </ul>
+    </li>
+    <li>
+        search:
+        <ul>
+            <li>
+                <span><i>Slightly complex logic compared to others</i></span>
+            </li>
+            <li>
+                Ask the user to enter a search query
+            </li>
+            <li>
+                Search through each contact in phonebook by checking if the contact name contains the search query
+            </li>
+            <li>
+                Display all contact names that contain the search result in id. contact name format
+            </li>
+            <li>
+                <i>Ask instructor for HINT on which Collection Framework class to use to implement this functionality</i>
+            </li>
+        </ul>
+    </li>
+    <li>
+        exit:
+        <ul>
+            <li>Exit the menu and end exection </li>
+        </ul>
+    </li>
+</ol>
+<hr class="my-5">
+<h3 class="font-weight-bold mb-2">
+    Output expected:
+</h3>     
+<video width="800" height="600" controls>
+    <source src="Output.mov" type="video/mp4">
+</video> 
+<hr class="my-5">
+<h3 class="font-weight-bold mb-2">
+    Additional Notes:
+</h3> 
+    <ul>
+        <li>
+            Write the phonebook ArrayList into an object file before ending the program
+        </li>
+        <li>
+            Read the array list back from object file, if it exists , at the beginning of your program and pre-populate the phonebook list. 
+        </li>
+        <li>
+            Open Book - use any resource including google
+        </li>
+        <li>
+            Your instructor can send your team more detailed output recording with explanation if needed
+        </li>
+    </ul>
+
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <!-- using online scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/prism.min.js"></script>
+    <!-- using local scripts -->
+    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
